@@ -15,9 +15,11 @@
   </li>
 <!-- </ul> -->
 <!-- <ul> -->
-  <li class="list_item_resumen"> <select  #selLang (change)="translateLanguageTo(selLang.value)">
+  <li class="list_item_Lenguage "><select  #selLang (change)="translateLanguageTo(selLang.value)">
     <option *ngFor="let language of translate.getLangs()" [value]="language">{{ language }}</option>
-  </select>
+  
+  </select>  
+  
 </li>
   <li class="list_item_resumen">
       <a id="resumen" (click)="goToLink('assets/documents/Resume.pdf')">{{'resume' | translate}}</a>

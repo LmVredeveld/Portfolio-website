@@ -8,10 +8,11 @@ import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { FutureComponent } from './future/future.component';
 
-
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { SocialsComponent } from './socials/socials.component';
+import { LifeStoryComponent } from './life-story/life-story.component';
 
 export function httpTranslateLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -22,7 +23,9 @@ export function httpTranslateLoaderFactory(http: HttpClient) {
     HeaderComponent,
     HomeComponent,
     ProjectsComponent,
-    FutureComponent
+    FutureComponent,
+    SocialsComponent,
+    LifeStoryComponent
   ],
   imports: [
     BrowserModule,

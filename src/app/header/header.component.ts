@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -15,6 +16,7 @@ export class HeaderComponent {
     translate.setDefaultLang('EN');
   } 
 
+
   //Switch language
   translateLanguageTo(lang: string) {
     this.translate.use(lang);
@@ -23,4 +25,11 @@ export class HeaderComponent {
   goToLink(url: string){
     window.open(url, "_blank");
   }
+
+  isMenuOpen = false;
+
+  toggleMenu(): void{
+    this.isMenuOpen = !this.isMenuOpen
+  }
+
 }

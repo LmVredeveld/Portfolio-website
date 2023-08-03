@@ -1,10 +1,16 @@
 
 <div class="header">
-    <div class="leftside">
+    <div class="leftside menuBurger" [class.is-open]="isMenuOpen">
 <a class="left-list" href="">{{'Work' | translate}}</a>
 <a class="left-list" href="">{{'About' | translate}}</a>
 <a class="left-list" href="">{{'Contact' | translate}}</a>
 </div>
+<li class="burger" (click)="toggleMenu()">
+<i class="material-icons">{{isMenuOpen ? "close" : "menu"}}</i>
+</li>
+
+
+
 <div class="logoContainer">
 <img class="Logo" src="assets/images/LMV-1.png" alt="LmVredeveld-Logo">
 </div>
@@ -14,7 +20,7 @@
 <div class="resumen">
     <a id="resumen" (click)="goToLink('assets/documents/Resume.pdf')">{{'resume' | translate}}</a>
 </div>
-<div class="LenguageSwitch ">
+<div class="LenguageSwitch menuBurger" [class.is-open]="isMenuOpen">
     <select  #selLang (change)="translateLanguageTo(selLang.value)">
     <option *ngFor="let language of translate.getLangs()" [value]="language">{{ language }}
 
@@ -22,4 +28,7 @@
   </select>
 </div>
 </div>
+
+
+
 </div>

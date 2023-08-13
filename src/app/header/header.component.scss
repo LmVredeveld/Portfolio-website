@@ -1,13 +1,5 @@
 $textcolor: #008080;
 
-.header{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-align-items: center;
-position: sticky;
-margin-top: 15px;
-
-}
 
 
 .left-list{
@@ -29,16 +21,7 @@ align-items: center;
 justify-content: flex-end;
 }
 
-.resumen a{
-    border: 2px solid $textcolor;
-    color: $textcolor;
-    text-decoration: none;
-    padding: 12px 16px;
-    border-radius: 8%;
-    height: 18px;
-    width: 60px;
 
-}
 
 .burger{
     list-style-type: none;
@@ -46,7 +29,15 @@ justify-content: flex-end;
 }
 
 @media(min-width: 701px){
-
+    .header{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        position: sticky;
+        margin-top: 15px;
+        
+        }
+        
 .Logo{
         height: 50px;
         margin: 3px 0px 0px 3px;
@@ -78,7 +69,17 @@ justify-content: flex-end;
 
 }
 
+
 @media (max-width: 700px){
+    .header{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 1fr;
+        align-items: center;
+        position: sticky;
+        margin-top: 15px;
+        
+        }
+        
     .menuBurger{
     display: none;
     }
@@ -101,12 +102,34 @@ justify-content: flex-end;
         height: 47px;
 
     }
+    .resumen a{
+        border: 2px solid $textcolor;
+        color: $textcolor;
+        text-decoration: none;
+        padding: 12px 16px;
+        border-radius: 8%;
+        height: 18px;
+        width: 60px;
+    
+    }
     .menu-item{
         border-bottom: 1px solid black;
     }
     .Logo{
-        height: 35px;
+        height: 30px;
         margin: 3px 0px 0px 3px;
+    
+    }
+    .resumen a{
+        border: 2px solid $textcolor;
+        color: $textcolor;
+        text-decoration: none;
+        padding: 6px 8px;
+        border-radius: 8%;
+        height: 9px;
+        font-size: 14px;
+   
+
     
     }
 }

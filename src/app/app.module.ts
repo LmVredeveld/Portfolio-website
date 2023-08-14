@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { FutureComponent } from './future/future.component';
 
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -24,7 +23,6 @@ export function httpTranslateLoaderFactory(http: HttpClient) {
     HeaderComponent,
     HomeComponent,
     ProjectsComponent,
-    FutureComponent,
     SocialsComponent,
     LifeStoryComponent
   ],

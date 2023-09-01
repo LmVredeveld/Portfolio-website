@@ -14,13 +14,16 @@ p
         width: 100%;
     }
     img{
-        max-height: 98vh;
-        margin-right: 20px;
+        max-width: 100%;
+        margin-right: 30px;
         }
     .divtext{
             display: grid;
             align-items: center;
             align-content: center;
+            margin: 0px 80px;
+            width: calc(100% - 160px);
+            max-width: 100%;
             }
 
 h4{

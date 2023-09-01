@@ -1,0 +1,82 @@
+
+@media (min-width: 701px){
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 2px #686868  solid;
+    margin-top: 20px;
+}
+
+
+.socials{
+    display: grid;
+   justify-content: end;
+    margin-right: 30px;
+
+}
+
+img{
+    margin-top: 20px;
+    width: 30%;
+}
+
+
+}
+
+@media (max-width: 700px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "contactForm socials"
+        "footer-middle footer-middle ";
+        border-top: 2px #686868  solid;
+        margin-top: 20px;
+    }
+
+    .footer-middle{
+    display: grid;
+      grid-area: footer-middle;
+    justify-content: center;
+    }
+    
+  
+
+    
+    .socials{
+        grid-area: socials;
+        margin: 20px 0px 0px 50px
+    }
+    
+    
+    img{
+        margin-top: 20px;
+        width: 30%;
+    }
+ 
+}
+
+.linkedin,
+.github{
+margin-right: 15px ;
+    color: #fff;
+}
+
+.ankerGithub,
+.ankerLinkedin{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.footer-middle{
+    max-width: 100%;
+    display: grid;
+    justify-items: center;
+
+
+}

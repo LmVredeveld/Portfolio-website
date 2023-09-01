@@ -11,8 +11,11 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { SocialsComponent } from './socials/socials.component';
-import { LifeStoryComponent } from './life-story/life-story.component';
+import { AboutComponent } from './About/About.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FooterComponent } from './footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ContactComponent } from './contact/contact.component';
 
 export function httpTranslateLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -24,11 +27,14 @@ export function httpTranslateLoaderFactory(http: HttpClient) {
     HomeComponent,
     ProjectsComponent,
     SocialsComponent,
-    LifeStoryComponent
+    AboutComponent,
+    FooterComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FontAwesomeModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {

@@ -1,14 +1,11 @@
 {
    
-    "about": "Acerca de",
+    "About": "Acerca de",
     "future": "Futuro",
     "contact": "Contacto",
-    "resume": "Curriculum",
-    "greetings": "Holla, Mi nombre es",
-    "myName": "Lorenzo Vredeveld",
-    "firstPageHeader": "Creo cosas para la web.",
-    "introduction": "Soy ingeniero de software especializado en desarrollo web front-end. Actualmente, estoy enfocado en aprender todo lo que necesito saber sobre cómo hacer un buen sitio web funcional. En este sitio web, leerá sobre cómo me convertí en programador, lo que quiero aprender en el futuro y todos mis avances y proyectos. También podrá descargar mi currículum y también habrá una forma de contactarme.",
-    "aboutMeHeader": "Acerca de mí",
-    "aboutMeMainText": "¡Hola! Mi nombre es Lorenzo y comencé mi viaje de programación en 2020. Permítanme explicar todo retrocediendo a diciembre de 2020. Ese mes cambió mucho en mi vida, desde que me mudé a Argentina. Todo comenzó cuando una empresa aquí en Córdoba, Argentina se interesó en mí y terminó contratándome como agente de soporte de segundo nivel. El tipo de trabajo que se incluía en este puesto era la creación de consultas para una base de datos SQL, averiguar por qué una consulta es lenta y mejorarla. También incluyó la localización de errores que los clientes o nosotros encontramos e intentar encontrar una solución que los resolviera. Este código fue escrito en C# y no era fácil de entender para alguien que acababa de empezar. Sin embargo, tuve un buen supervisor que me ayudó mucho, siendo estos mis primeros pasos en la programación. Un año después, en diciembre de 2021, mi pasión por la programación me hizo cambiar de camino, y fue entonces cuando comencé a trabajar en Globant, como aprendiz de interfaz de usuario web. Antes de eso, nunca había trabajado con HTML CSS y JS, por lo que ingresar a este nivel tenía mucho sentido. Ahora avanzando rápidamente hasta hoy, me ascendieron a web UI JR, y disfruto lo que hago todos los días, tratando de aprender tanto como puedo. Llevo más de 1 año y medio trabajando con globant aprendiendo react.js y también otros frameworks y librarys. ",
-    "PictureOfMe": "imagen de lorenzo"
+    "resume": "curriculum vitae",
+    "work": "trabajo",
+    "mainHeader": "Programacion por el futuro! ",
+    "AboutStory": "I am Lorenzo, a passionate programmer bringing you code from the future. My expertise is developing next-level websites and web applications."
+
   }

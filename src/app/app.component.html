@@ -1,32 +1,5 @@
-<div>
-   
-<img class="Logo" src="../assets/images/LMV-1.png" alt="Logo" >
 
-<div class="nav_list">
-<ul >
-  <li class="list_item">
-      <a href="#About">{{'about' | translate}}</a>
-  </li>
-  <li class="list_item"> 
-      <a i18n href="#Future">{{'future' | translate}}</a>
-  </li> 
-  <li class="list_item"> 
-      <a i18n id="Contact" href="">{{'contact' | translate}}</a>
-  </li>
-<!-- </ul> -->
-<!-- <ul> -->
-  <li class="list_item_resumen"> <select  #selLang (change)="translateLanguageTo(selLang.value)">
-    <option *ngFor="let language of translate.getLangs()" [value]="language">{{ language }}</option>
-  </select>
-</li>
-  <li class="list_item_resumen">
-      <a id="resumen" (click)="goToLink('../assets/documents/Resume.pdf')">{{'resume' | translate}}</a>
-  </li>
-  
-</ul>
-</div>
-</div>
-
-
-
-<router-outlet></router-outlet>
+<app-header/>
+<app-home />
+<app-about/>
+<app-footer/>

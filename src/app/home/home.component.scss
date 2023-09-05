@@ -1,130 +1,38 @@
 
-
-.Logo{
-    height: 30px;
-    display: inline-block;
-    margin: 3px 0px 0px 3px;
+h1{
+    text-align: center;
+    font-size: 120px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
-
-p{
-    color: #a9a9a9;
+.homepage{
+   display: inline-grid;
+    width: 100%;
+    justify-items: center;
+    margin-bottom: 200px;
+}
+.button-myStory{
     font-size: 20px;
-}
-.introduction{
-    width: 60%;
-    margin-bottom: 35px;
-}
-.pic_of_me{
-    height: 286px;
-    box-shadow: 10px 10px #008080 ;
-    margin-left:100px;
-    align-items: center;
-    
-
-}
-.about_me_pic_and_text{
-display: flex;
-
-
-}
-
-.Main_body_div{
-    margin-left: 70px;
-    margin-top: 80px; 
-}
-.intro_me{
-color: #008080;
-font-size: 35px;
-}
-
-.my_name{
-font-size:70px;
-margin: 0%;
-margin-top: 50px;
-margin-bottom: 50px;
-}
-
-.expression{
-    font-size: 35px;
-}
-
-h2::before{
-    color:#008080;
-    counter-increment: section 1;
-    content: "0" counter(section) ". ";
-    
-}
-
-.Main_body_div{
-    margin-left: 100px;
-}
-
-
-.nav_list{
-    display: inline-flex;
-  height: 100%;
- margin: 20px 0px 0px 0px;
- float: right;
- counter-reset: item;
- vertical-align: top;
-}
-
-.list_item_resumen a{
-    border: 2px solid #008080;
-    color: #008080;
+    border: 2px solid var(--textcolor);
+    color: var(--textcolor);
+    background-color: #ffff;
     text-decoration: none;
-   padding: 12px 16px;
-border-radius: 8%;
+    padding: 12px 16px;
+    border-radius: 8%;
+    display: flex;
+    justify-content: center;
+    width: 150px;
 }
 
-.list_item::before{
-   
-    counter-increment: item 1;
-    content: "0" counter(item) ".";
+.button-myStory:hover{
+background-color: var(--background);
+color: #ffff;
+
 }
 
-.main_header{
-display: inline-block;
-width: 100%;
-margin-top: 15px;
-}
-
-.nav_list:hover{
-    color: #008080;
-}
-
-.list_item,
-.list_item_resumen {
-    display: inline-block;
-    color: #008080;
-    margin: 0px 30px 0px 0px;
+@media (max-width: 700px) {
+ h1{
+font-size: 60px;
     
-}
-
-.list_item a{
-    display: inline-block;
-    text-decoration: none;
-    padding: 0px 5px;
-    color: #ffff;
-}
-
-.list_item a:hover{
-    text-decoration: underline;
-}
-
-.aboutme_main{
-display: inline-flex;
-
-align-items:center;
-
-}
-.about_me_main_text{
-    font-size: 20px;
- display: inline-block;
- width: 45%;
-
-}
-
-#about{
-    margin-top: 70px;
+ }
 }

@@ -1,13 +1,10 @@
 {
-    "about": "Over mij",
+    "MyStory": "Mijn verhaal",
+    "About": "Over mij",
     "future": "Toekomst",
     "contact": "Contact",
     "resume": "curriculum vitae",
-    "greetings": "Hallo, Mijn naam is",
-    "myName": "Lorenzo Vredeveld",
-    "firstPageHeader": "Ik maak dingen voor het internet.",
-    "introduction": "Ik ben een software-engineer die gespecialiseerd is in front-end webontwikkeling. Momenteel ben ik gefocust op het leren van alles wat ik moet weten over het maken van een goede functionele website. Op deze website lees je hoe ik programmeur ben geworden, wat ik in de toekomst wil leren en al mijn vorderingen en projecten. Ook kunt u mijn cv downloaden en er zal ook een manier zijn om contact met mij op te nemen.    ",
-    "aboutMeHeader": "Over mij",
-    "aboutMeMainText": "Hallo! Mijn naam is Lorenzo en ik begin mijn programmeer reis in 2020. Laat me alles uitleggen door terug te gaan naar december van dat jaar. Die maand veranderde er veel in mijn leven, ik was verhuisd naar Argentinië. Dit begon allemaal toen een bedrijf in Córdoba, Argentinië, in mij geïnteresseerd raakte en mij uiteindelijk aannam als tweedelijns ondersteuning agent. Het soort werk dat bij deze functie hoorde, was het maken van query's voor een SQL-database, uitzoeken waarom een ​​query traag is en deze dan verbeteren. Het omvatte ook het lokaliseren van bugs die klanten of wij vonden en het zoeken naar een oplossing. Deze code is geschreven in C# en was niet gemakkelijk te begrijpen voor iemand die net begon. Ik had echter een goede supervisor die me veel heeft geholpen, dit waren mijn allereerste stappen in het programmeren. Een jaar later, in december 2021, zorgde mijn passie voor programmeren ervoor dat ik van pad veranderden, toen kreeg ik de kans om bij Globant te werken, als web UI trainee. Daarvoor had ik nog nooit met HTML, CSS en JS gewerkt, dus het was heel logisch om op dit niveau in te stappen. Nu snel doorspoelen naar 17 maart, ik ben gepromoveerd tot web UI JR, en ik geniet elke dag van wat ik doe en probeer zoveel mogelijk te leren. ik werk al meer dan anderhalf jaar met globant aan het leren van react.js en ook met andere frameworks en bibliotheken.    ",
-    "PictureOfMe": "Foto van Lorenzo"
+"mainHeader": "Programeren voor de Toekomst ",
+"AboutStory": "Mijn naam is Lorenzo, ik ben een gepassioneerde programeur die jullie code brengt voor de toekomst. Mijn expertise is het ontwikkelen van next-level websites en webapplicaties."
+
     }

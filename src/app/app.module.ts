@@ -6,15 +6,19 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { FutureComponent } from './future/future.component';
-
 
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { SocialsComponent } from './socials/socials.component';
+import { AboutComponent } from './About/About.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FooterComponent } from './footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ContactComponent } from './contact/contact.component';
 
 export function httpTranslateLoaderFactory(http: HttpClient) {
-  return new TranslateHttpLoader(http);
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 @NgModule({
   declarations: [
@@ -22,11 +26,15 @@ export function httpTranslateLoaderFactory(http: HttpClient) {
     HeaderComponent,
     HomeComponent,
     ProjectsComponent,
-    FutureComponent
+    SocialsComponent,
+    AboutComponent,
+    FooterComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FontAwesomeModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
@@ -34,7 +42,8 @@ export function httpTranslateLoaderFactory(http: HttpClient) {
         useFactory: httpTranslateLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    BrowserAnimationsModule
   
   ],
   providers: [],
